@@ -11,13 +11,24 @@ let package = Package(
             name: "DaouGeometry2D",
             targets: ["DaouGeometry2D"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/DaouMobile/DaouAngle",
+                 branch: "main")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "DaouGeometry2D"),
+            name: "DaouGeometry2D",
+            dependencies: [
+                "DaouAngle"
+            ]
+        ),
         .testTarget(
             name: "DaouGeometry2DTests",
-            dependencies: ["DaouGeometry2D"]),
+            dependencies: [
+                "DaouGeometry2D",
+                "DaouAngle"
+            ]),
     ]
 )

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "daouangle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DaouMobile/DaouAngle",
+      "state" : {
+        "branch" : "main",
+        "revision" : "456cda161a53d246614839dd846713903e99bcab"
+      }
+    }
+  ],
+  "version" : 2
+}
