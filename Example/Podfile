@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DaouGeometry2D_Tests' do
+  pod 'DaouGeometry2D', :path => '../'
+  
+  
+end

@@ -1,0 +1,22 @@
+{
+  "name": "DaouGeometry2D",
+  "version": "0.1.0",
+  "summary": "A short description of DaouGeometry2D.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vongvoro/DaouGeometry2D",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vongvoro": "vongvoro@daou.co.kr"
+  },
+  "source": {
+    "git": "https://github.com/vongvoro/DaouGeometry2D.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DaouGeometry2D/Classes/**/*"
+}
