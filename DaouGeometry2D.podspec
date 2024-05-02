@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DaouGeometry2D'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'DaouGeometry2D'
 
   s.homepage         = 'https://github.com/DaouMobile/DaouGeometry2D'
@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   
   s.source_files = 'Sources/**/*.swift'
-  s.dependency 'DaouAngle', '1.0.2'
+  s.dependency 'DaouAngle', '1.0.3'
 end
